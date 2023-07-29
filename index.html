@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/water.css" />
+    <link rel="stylesheet" href="assets/css/notyf.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/notyf.min.js"></script>
+    <title>کوتاه کننده لینک</title>
+  </head>
+
+  <body>
+    <center>
+      <a class="title" href="" style="text-decoration: none">
+        <h1>کوتاه کننده لینک</h1>
+      </a>
+      <br />
+      <form action="" method="" autocomplete="off">
+        <div>
+          <input type="url" name="url" placeholder="لینک" required />
+          <input
+            type="text"
+            name="slug"
+            placeholder="آدرس دلخواه"
+            style="margin-top: 10px"
+          />
+        </div>
+        <br />
+        <input type="submit" value="کوتاه کن" />
+      </form>
+      <br />
+      <a href="list.html">لیست کوتاه شده ها</a>
+      <br />
+      <div id="response"></div>
+    </center>
+  </body>
+  <script>
+    const notyf = new Notyf();
+    notyf.success("message");
+  </script>
+</html>
