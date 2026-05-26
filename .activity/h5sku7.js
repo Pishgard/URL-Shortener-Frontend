@@ -1,2 +1,0 @@
-# 3a774bpqedfka8eidh2fw9y179uapp
-# mnyygkpjemq2anos05jtxg7xp0jqbxkn7rk1o
